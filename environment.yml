@@ -1,0 +1,32 @@
+name: pyvhr
+channels:
+  - pytorch
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9.7
+  - hdf5=1.10.6
+  - pip=21.3.1
+  - numba=0.53.1
+  - protobuf=5.28.3
+  - pytables=3.6.1
+  - cpuonly=2.0
+  - pytorch=1.10.0 # CPU-only compatible version
+  - torchaudio=0.10.0
+  - torchvision=0.11.1
+  - pip:
+      - asposestorage==1.0.2
+      - autorank==1.1.1
+      - biosppy==0.7.3
+      - ipython==7.28.0
+      - ipywidgets==7.6.5
+      - lmfit==1.0.3
+      - mediapipe==0.10.0
+      - plotly==5.3.1
+      - PySimpleGUI==4.70.1
+      - scikit_posthocs==0.6.7
+      - protobuf==3.20
+      - scikit-image==0.18.3
+      - tqdm==4.62.3
+      - tensorflow-cpu==2.10.0 # Install TensorFlow CPU version
